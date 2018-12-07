@@ -1,6 +1,6 @@
 ## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/wulove52/mobike_home/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/xiaoliangpan/zhufengH5/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
@@ -18,7 +18,8 @@ Syntax highlighted code block
  - 完全响应式跟随屏幕大小改变
  - 使用rem单位
    
-![珠峰H5首页](https://xiaoliangpan.github.io/zhufengH5/images/cli_500px.png)
+ ![Image](https://xiaoliangpan.github.io/zhufengH5/images/cli_500px.png)
+ 
 # Header 1
 ## Header 2
 ### Header 3
