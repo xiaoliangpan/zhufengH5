@@ -1,0 +1,128 @@
+html {font-size: 100px;}
+.header {position:relative;height: 1.12rem;background-color: black; padding: .23rem .16rem; z-index: 2}
+.logo {
+    float: left;
+    width: 2.1rem;
+    height: .62rem;
+    margin-top: .25rem;
+}
+.logo a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url("../images/logo.png") no-repeat;
+    background-size: cover;
+}
+.nav {float: right;}
+.nav .icon_menu {
+    display: block;
+    width: .36rem ;
+    height: .36rem;
+    background: url("../images/icon-menu.png") no-repeat;
+    background-size: cover;
+    margin-top: .25rem;
+    cursor: pointer;
+}
+.layer_hover {
+    position: absolute;
+    top: 1.12rem;
+    left: 0;
+    width: 100%;
+    background-color: black;
+    display: none;
+
+}
+.layer_hover li {
+    height: .93rem;
+    width: 100%;
+    line-height: .93rem;
+    margin: 0 .27rem;
+    border-top: 1px solid #fdfdfe;
+    font-size: .24rem;
+    text-align: center;
+}
+.layer_hover li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #fdfdfe;
+}
+.swiper-container img {
+    width: 100%;
+}
+.swiper-pagination-bullet {
+    background-color: #f3f5f7 ;
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: #333333;
+    opacity: 1;
+}
+.main {
+    /*padding: 0 .2rem;*/
+    margin: 0 .2rem;
+}
+.main .sec_title {
+    height: 1rem;
+    font-size: .26rem;
+    line-height: 1rem;
+    color: #4c4b4b;
+
+}
+.main .sec_title:before {
+    content: "";
+    display: inline-block;
+    width: .29rem;
+    height: .35rem;
+    margin-right: .05rem;
+    vertical-align: -.05rem;
+    background: url("../images/book.png") no-repeat;
+    background-size: cover;
+}
+.main .sec_col {
+    box-shadow: 0 .05rem .06rem rgba(178, 178, 178, .75);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;: ;
+    margin-bottom: .36rem;
+}
+.main .sec_col img {
+    width: 100%;
+    display: block;
+    border-radius: .05rem .05rem 0 0 ;
+
+}
+.sec_col .text {
+    text-align: center;
+    padding: .12rem 0;
+    font-size: .28rem;
+    color: #333333;
+}
+.sec_col .text .price {
+    margin-top: .24rem;
+    color: #e53935;
+}
+.menu {
+    width: 100%;
+    border-top: .01rem solid #cfcfcf;
+    padding: .20rem 0;
+
+}
+.menu .menu_list li {
+    width: 33.3333%;
+    margin: 0 auto;
+    text-align: center;
+    float: left;
+}
+.menu_list li a,img {
+    display: inline-block;
+}
+.menu_list li img {
+    width: .46rem;
+    height: .36rem;
+
+}
+.menu_list li h4 {
+    font-size: .16rem;
+    color: #ABABAB;
+}

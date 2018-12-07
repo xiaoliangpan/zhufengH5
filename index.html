@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>珠峰培训H5</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo"><a href=""></a></h1>
+        <nav class="nav"><span class="icon_menu">
+            <ul class="layer_hover">
+                <li><a href="">Node课程培训</a></li>
+                <li><a href="">HTML培训课程</a></li>
+                <li><a href="">视频课程</a></li>
+                <li><a href="">文档课程</a></li>
+                </ul>
+        </span></nav>
+    </header>
+    <!--轮播图-->
+    <div class="swiper-container">
+
+        <div class="swiper-wrapper">
+            <a class="swiper-slide" href=""><img src="images/banner1.png"/></a>
+            <a class="swiper-slide" href=""><img src="images/banner2.png"/></a>
+            <a class="swiper-slide" href=""><img src="images/banner3.png"/></a>
+            <a class="swiper-slide" href=""><img src="images/banner4.png"/></a>
+
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+
+        <!-- 如果需要导航按钮 -->
+        <!--   <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>-->
+
+        <!-- 如果需要滚动条 不需要注释 -->
+        <!--<div class="swiper-scrollbar"></div>-->
+    </div>
+
+    <main class="main">
+        <h2 class="sec_title">主要课程</h2>
+        <section class="sec_col">
+            <a href="">
+                <figure class="pic">
+                    <img src="images/banner1.png" alt="">
+                </figure>
+                <aside class="text">
+                    <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                    <p class="price">￥5000.00元</p>
+                </aside>
+            </a>
+        </section>
+        <section class="sec_col">
+            <a href="">
+                <figure class="pic">
+                    <img src="images/banner2.png" alt="">
+                </figure>
+                <aside class="text">
+                    <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                    <p class="price">￥6000.00元</p>
+                </aside>
+            </a>
+        </section>
+        <section class="sec_col">
+            <a href="">
+                <figure class="pic">
+                    <img src="images/banner3.png" alt="">
+                </figure>
+                <aside class="text">
+                    <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                    <p class="price">￥5000.00元</p>
+                </aside>
+            </a>
+        </section>
+        <section class="sec_col">
+            <a href="">
+                <figure class="pic">
+                    <img src="images/banner4.png" alt="">
+                </figure>
+                <aside class="text">
+                    <p class="info">Vue.js从理论精讲到项目实战课程</p>
+                    <p class="price">￥8000.00元</p>
+                </aside>
+            </a>
+        </section>
+    </main>
+
+    <section class="menu">
+        <ul class="menu_list clearfix">
+            <li class="home">
+                <a href="">
+                    <img src="images/home.png" />
+                    <h4>首页</h4>
+                </a></li>
+            <li class="course">
+                <a href="">
+                    <img src="images/course.png" />
+                    <h4>我的课程</h4>
+                </a></li>
+
+            <li class="center">
+                <a href="">
+                    <img src="images/center.png" />
+                    <h4>个人中心</h4>
+                </a></li>
+
+        </ul>
+    </section>
+
+</body>
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    function refreshRem() {
+        var desW = 750,
+            winW = document.documentElement.clientWidth,
+            ratio = winW / desW;
+        document.documentElement.style.fontSize = ratio * 100 + 'px';
+    }
+    refreshRem();
+    window.addEventListener('resize', refreshRem);
+
+    // swiper 配置
+    var mySwiper = new Swiper ('.swiper-container', {
+        //direction: 'vertical', // 垂直切换选项
+        loop: true, // 循环模式选项
+        autoplay: {
+            delay: 3000,
+            stopOnLastSlide: false,
+            disableOnInteraction: false,
+        },
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+            // type: 'fraction'
+        }
+
+    })
+
+
+</script>
+</html>
